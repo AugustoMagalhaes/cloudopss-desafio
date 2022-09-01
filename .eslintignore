@@ -2,3 +2,4 @@
 **/*.sass
 node_modules
 **/*.css
+**/*.html
