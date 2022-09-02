@@ -1,0 +1,16 @@
+.nav-btn {
+  background-color: #f87d50;
+  border: 1px solid #f87d50;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  width: 157px;
+}
+
+.whitebd {
+  border: 2px solid white;
+}
