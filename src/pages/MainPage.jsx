@@ -1,5 +1,6 @@
 import React from 'react';
 import DietChoice from '../components/DietChoice/DietChoice';
+import FoodRestriction from '../components/FoodRestriction/FoodRestriction';
 import Header from '../components/Header/Header';
 import MainGoal from '../components/MainGoal/MainGoal';
 import MealsPerDay from '../components/MealsPerDay/MealsPerDay';
@@ -16,6 +17,7 @@ export default function MainPage() {
       <MainGoal />
       <DietChoice />
       <MealsPerDay />
+      <FoodRestriction />
     </>
   );
 }
