@@ -1,18 +1,23 @@
-body {
-  align-items: center;
-  background: white;
+* {
   box-sizing: border-box;
-  display: flex;
-  flex-flow: column nowrap;
-  font-family: Gilroy, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
 }
 
+body {
+  align-items: center;
+  background: white;
+  color: #1f1f1f;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Gilroy, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+}
+
 code {
-  font-family: Rubik, sans-serif;
+  font-family: Gilroy, sans-serif;
 }
 
 @font-face {
