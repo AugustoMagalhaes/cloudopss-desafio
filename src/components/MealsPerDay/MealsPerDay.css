@@ -1,0 +1,27 @@
+.mealsperday-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 201px;
+  margin: 0 auto 20px;
+  width: 958px;
+}
+
+.mealsperday-title-container {
+  height: 62px;
+  margin-left: 63px;
+  width: 215px;
+}
+
+.mealsperday-title {
+  font-size: 25px;
+}
+
+.mealsperday-input-container {
+  border: 1px solid orange; /* temp */
+  height: 42px;
+  margin-left: 210px;
+  width: 284px;
+}
