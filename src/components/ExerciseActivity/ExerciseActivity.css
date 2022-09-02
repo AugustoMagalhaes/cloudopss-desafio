@@ -1,0 +1,40 @@
+.exercise-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 272px;
+  margin: 0 auto 20px;
+  position: relative;
+  width: 958px;
+}
+
+.exercise-title-container {
+  height: 62px;
+  margin-left: 63px;
+}
+
+.exercise-title {
+  font-size: 25px;
+}
+
+.exercise-input-container {
+  border: 1px solid orange; /* temp */
+  height: 198px;
+  margin-left: 217px;
+  width: 284px;
+  z-index: 1;
+}
+
+.dumbbel {
+  height: 145px;
+  left: 750px;
+  opacity: 0.1;
+  position: absolute;
+  right: 48px;
+  top: 116px;
+  transform: rotate(45deg);
+  width: 145px;
+  z-index: 0;
+}
