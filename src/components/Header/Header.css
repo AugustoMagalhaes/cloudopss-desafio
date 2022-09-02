@@ -1,9 +1,6 @@
 .header-top {
-  background-color: beige; /* temp */
-  border: 1px solid red;
   display: flex;
-  height: 100px;
-  margin: 0 auto;
-
-  /* width: 80vw; */
+  height: 51px;
+  margin-top: 29px;
+  width: 1292px;
 }
