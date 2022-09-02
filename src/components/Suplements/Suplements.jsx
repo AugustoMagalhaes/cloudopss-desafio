@@ -12,7 +12,7 @@ function Suplements() {
       <section className="suplements-input-container">
         Input
       </section>
-      <img src={EnergyBottle} alt="A dumbbel" className="dumbbel" />
+      <img src={EnergyBottle} alt="A suplement" className="suplement" />
     </section>
   );
 }
