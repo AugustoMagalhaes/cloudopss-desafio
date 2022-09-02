@@ -1,0 +1,15 @@
+.nav-btn {
+  background-color: #f87d50;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 5px 10px;
+  width: 160px;
+}
+
+.whitebd {
+  border: 2px solid white;
+}
