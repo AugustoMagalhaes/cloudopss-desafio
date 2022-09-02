@@ -1,0 +1,11 @@
+.personal-container {
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 407px;
+  justify-content: space-between;
+  margin-top: 80px;
+  position: absolute;
+  width: 958px;
+}
