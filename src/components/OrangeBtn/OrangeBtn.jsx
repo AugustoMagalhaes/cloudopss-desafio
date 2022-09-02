@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import './OrangeBtn.css';
 
-function OrangeBtn({ hasBorder, text }) {
+function OrangeBtn({ hasBorder, specificClass, text }) {
   return (
-    <button type="button" className={`nav-btn ${hasBorder && 'whitebd'}`}>
+    <button type="button" className={`${specificClass} ${hasBorder && 'whitebd'}`}>
       {text}
     </button>
   );
@@ -13,6 +13,7 @@ function OrangeBtn({ hasBorder, text }) {
 OrangeBtn.propTypes = {
   hasBorder: PropTypes.bool,
   text: PropTypes.string.isRequired,
+  specificClass: PropTypes.string.isRequired,
 };
 
 OrangeBtn.defaultProps = {
