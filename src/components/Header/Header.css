@@ -1,0 +1,8 @@
+.header-top {
+  background-color: beige; /* temp */
+  border: 1px solid red;
+  display: flex;
+  height: 100px;
+  margin: 0 auto;
+  width: 80vw;
+}
