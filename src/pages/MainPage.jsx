@@ -8,6 +8,7 @@ import MainGoal from '../components/MainGoal/MainGoal';
 import MealsPerDay from '../components/MealsPerDay/MealsPerDay';
 import PersonalInfo from '../components/PersonalInfo/PersonalInfo';
 import Planning from '../components/Planning/Planning';
+import Suplements from '../components/Suplements/Suplements';
 import '../index.css';
 
 export default function MainPage() {
@@ -22,6 +23,7 @@ export default function MainPage() {
       <FoodRestriction />
       <DietDifficulty />
       <DietInvestment />
+      <Suplements />
     </>
   );
 }
