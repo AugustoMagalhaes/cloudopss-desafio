@@ -1,0 +1,40 @@
+.dietinvest-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 258px;
+  margin: 0 auto 20px;
+  position: relative;
+  width: 958px;
+}
+
+.dietinvest-title-container {
+  height: 62px;
+  margin-left: 63px;
+}
+
+.dietinvest-title {
+  font-size: 25px;
+}
+
+.dietinvest-input-container {
+  border: 1px solid orange; /* temp */
+  height: 146px;
+  margin-left: 273px;
+  margin-right: 39px;
+  width: 284px;
+  z-index: 1;
+}
+
+.piggy-bank {
+  height: 146px;
+  left: 750px;
+  opacity: 0.1;
+  position: absolute;
+  right: 48px;
+  top: 87px;
+  width: 169px;
+  z-index: 0;
+}
