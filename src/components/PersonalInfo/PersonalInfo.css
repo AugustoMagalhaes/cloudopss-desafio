@@ -13,10 +13,11 @@
 .personal-title {
   font-family: Rubik, sans-serif;
   font-size: 25px;
+  font-weight: 700;
 }
 
 .personal-input-container {
-  border: 1px solid orange;
+  border: 1px solid orange; /* temp */
   height: 317px;
   width: 346px;
 }
