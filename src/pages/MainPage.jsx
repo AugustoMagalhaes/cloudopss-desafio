@@ -2,6 +2,7 @@ import React from 'react';
 import DietChoice from '../components/DietChoice/DietChoice';
 import DietDifficulty from '../components/DietDifficulty/DietDifficulty';
 import DietInvestment from '../components/DietInvestment/DietInvestment';
+import ExerciseActivity from '../components/ExerciseActivity/ExerciseActivity';
 import FoodRestriction from '../components/FoodRestriction/FoodRestriction';
 import Header from '../components/Header/Header';
 import MainGoal from '../components/MainGoal/MainGoal';
@@ -24,6 +25,7 @@ export default function MainPage() {
       <DietDifficulty />
       <DietInvestment />
       <Suplements />
+      <ExerciseActivity />
     </>
   );
 }
