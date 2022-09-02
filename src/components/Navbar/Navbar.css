@@ -1,0 +1,13 @@
+.nav-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-link {
+  color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
