@@ -9,15 +9,21 @@ function Navbar() {
     <nav className="nav-header">
       <section className="logo-container">
         <Link to="/">
-          <img src={MinnaLogo} alt="" />
+          <img src={MinnaLogo} alt="Minna Logo" />
         </Link>
       </section>
-      <Link to="/" className="nav-link">Como fazemos</Link>
-      <Link to="/" className="nav-link">Planos e preços</Link>
-      <Link to="/" className="nav-link">Receitas</Link>
-      <Link to="/" className="nav-link">Sobre nós</Link>
-      <OrangeBtn hasBorder specificClass="nav-btn" text="Inscreva-se" />
-      <OrangeBtn hasBorder="" specificClass="nav-btn" text="LOGIN" />
+      <section className="nav-link-container">
+        <Link to="/" className="nav-link">Como fazemos</Link>
+        <Link to="/" className="nav-link">Planos e preços</Link>
+        <Link to="/" className="nav-link">Receitas</Link>
+        <Link to="/" className="nav-link">Sobre nós</Link>
+      </section>
+
+      <section className="btn-container">
+        <OrangeBtn hasBorder specificClass="nav-btn" text="Inscreva-se" />
+        <OrangeBtn hasBorder="" specificClass="nav-btn" text="LOGIN" />
+      </section>
+
     </nav>
 
   );
