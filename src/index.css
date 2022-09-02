@@ -1,9 +1,10 @@
 body {
   align-items: center;
+  background: white;
   box-sizing: border-box;
   display: flex;
   flex-flow: column nowrap;
-  font-family: Helvetica, Fira Sans, sans-serif;
+  font-family: Gilroy, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
@@ -11,5 +12,12 @@ body {
 }
 
 code {
-  font-family: Helvetica, sans-serif;
+  font-family: Rubik, sans-serif;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 800;
+  src: local('Gilroy'),
+    url('./fonts/Gilroy/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf') format('truetype');
 }
