@@ -1,0 +1,29 @@
+.maingoal-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 186px;
+  margin: 0 auto 20px;
+  width: 958px;
+}
+
+.maingoal-title-container {
+  height: 62px;
+  margin-left: 63px;
+  width: 218px;
+}
+
+.maingoal-title {
+  font-size: 25px;
+  margin: 4px 0 0;
+}
+
+.maingoal-input-container {
+  border: 1px solid orange; /* temp */
+  height: 116px;
+  margin-left: 268px;
+  margin-top: 20px;
+  width: 346px;
+}
