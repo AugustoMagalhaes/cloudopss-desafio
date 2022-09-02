@@ -1,0 +1,32 @@
+.planning {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 245px;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.planning-title-container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 80%;
+  justify-content: center;
+}
+
+.planning-title {
+  font-size: 48px;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
+}
+
+.planning-btn {
+  background-color: #f87d50;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  height: 45px;
+  width: 150px;
+}
