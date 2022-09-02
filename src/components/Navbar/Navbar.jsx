@@ -16,8 +16,8 @@ function Navbar() {
       <Link to="/" className="nav-link">Planos e preços</Link>
       <Link to="/" className="nav-link">Receitas</Link>
       <Link to="/" className="nav-link">Sobre nós</Link>
-      <OrangeBtn hasBorder text="Inscreva-se" />
-      <OrangeBtn hasBorder="" text="LOGIN" />
+      <OrangeBtn hasBorder specificClass="nav-btn" text="Inscreva-se" />
+      <OrangeBtn hasBorder="" specificClass="nav-btn" text="LOGIN" />
     </nav>
 
   );
