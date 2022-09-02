@@ -9,6 +9,7 @@ import MainGoal from '../components/MainGoal/MainGoal';
 import MealsPerDay from '../components/MealsPerDay/MealsPerDay';
 import PersonalInfo from '../components/PersonalInfo/PersonalInfo';
 import Planning from '../components/Planning/Planning';
+import StartNow from '../components/StartNow/StartNow';
 import Suplements from '../components/Suplements/Suplements';
 import '../index.css';
 
@@ -26,6 +27,7 @@ export default function MainPage() {
       <DietInvestment />
       <Suplements />
       <ExerciseActivity />
+      <StartNow />
     </>
   );
 }
