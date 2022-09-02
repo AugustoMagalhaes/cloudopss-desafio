@@ -23,7 +23,7 @@
 .maingoal-input-container {
   border: 1px solid orange; /* temp */
   height: 116px;
+  margin-bottom: 5px;
   margin-left: 205px;
-  margin-top: 20px;
   width: 346px;
 }
