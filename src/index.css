@@ -1,8 +1,13 @@
 body {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
   font-family: Helvetica, Fira Sans, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  padding: 0;
 }
 
 code {
