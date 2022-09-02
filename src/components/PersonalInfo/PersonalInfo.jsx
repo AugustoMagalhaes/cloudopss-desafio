@@ -5,12 +5,12 @@ function PersonalInfo() {
   return (
     <section className="personal-container">
       <section className="personal-title">
-        <h3>Olá</h3>
+        <h3>Olá!</h3>
         <h3>Precisamos conhecer</h3>
-        <h3>um pouco sobre você:</h3>
+        <h3>um pouco sobre de você:</h3>
       </section>
       <section className="personal-input-container">
-        salve
+        Inputs aqui
       </section>
     </section>
   );

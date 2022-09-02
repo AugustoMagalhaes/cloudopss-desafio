@@ -1,11 +1,22 @@
 .personal-container {
+  align-items: center;
   background: white;
   border-radius: 50px;
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
   display: flex;
   height: 407px;
-  justify-content: space-between;
-  margin-top: 80px;
-  position: absolute;
+  justify-content: space-around;
+  margin: 61px auto 20px;
   width: 958px;
+}
+
+.personal-title {
+  font-family: Rubik, sans-serif;
+  font-size: 25px;
+}
+
+.personal-input-container {
+  border: 1px solid orange;
+  height: 317px;
+  width: 346px;
 }
