@@ -1,0 +1,43 @@
+.newsletter-container {
+  align-items: center;
+  background: #f87d50;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  margin: 0 auto 20px;
+  width: 958px;
+}
+
+.newsletter-title {
+  color: white;
+  font-size: 25px;
+}
+
+.newsletter-info {
+  display: flex;
+  height: 55px;
+  position: relative;
+  width: 450px;
+}
+
+.newsletter-input {
+  border: none;
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.newsletter-btn {
+  background: #f87d50;
+  border: 1px solid #f87d50;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: 800;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 107px;
+}
