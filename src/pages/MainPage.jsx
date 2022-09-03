@@ -7,6 +7,7 @@ import FoodRestriction from '../components/FoodRestriction/FoodRestriction';
 import Header from '../components/Header/Header';
 import MainGoal from '../components/MainGoal/MainGoal';
 import MealsPerDay from '../components/MealsPerDay/MealsPerDay';
+import Newsletter from '../components/Newsletter/Newsletter';
 import PersonalInfo from '../components/PersonalInfo/PersonalInfo';
 import Planning from '../components/Planning/Planning';
 import Plans from '../components/Plans/Plans';
@@ -30,6 +31,7 @@ export default function MainPage() {
       <ExerciseActivity />
       <StartNow />
       <Plans />
+      <Newsletter />
     </>
   );
 }
