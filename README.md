@@ -10,5 +10,8 @@ Clone o repositório:
 Posteriormente, rode o comando:
 `cd cloudopss-desafio`
 
+Instale as dependências com o comando:
+`npm install`
+
 e, por fim, execute:
 `npm start`
