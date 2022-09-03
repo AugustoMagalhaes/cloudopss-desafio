@@ -5,7 +5,7 @@ import './Plans.css';
 function Plans() {
   return (
     <section className="plans-container">
-      <h2 className="title">Conheça nossos planos</h2>
+      <h2 className="plan-main-title">Conheça nossos planos</h2>
       <section className="plan-types-wrapper">
         <PlanType
           title={['Plano individual']}
