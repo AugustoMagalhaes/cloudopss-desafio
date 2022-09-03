@@ -1,7 +1,6 @@
 .plans-container {
   align-items: center;
   background: #f87d50; /* temp */
-  border: 1px solid blue;
   display: flex;
   flex-flow: column nowrap;
   height: 663px;
@@ -10,7 +9,7 @@
   width: 958px;
 }
 
-.title {
+.plan-main-title {
   color: white;
   font-size: 35px;
 }
