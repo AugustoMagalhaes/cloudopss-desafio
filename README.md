@@ -1,4 +1,4 @@
-# Desafio Cloudopss
+# Desafio Cloudopss Frontend
 
 ### 🚀 Como rodar localmente:
 
