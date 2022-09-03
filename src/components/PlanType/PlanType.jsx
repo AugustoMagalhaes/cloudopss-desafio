@@ -14,12 +14,14 @@ function PlanType({ title, planPrice, planDescription }) {
         ))}
       </section>
       <section className="main-content-plan">
-        <p className="real-sign">
-          R$
-        </p>
-        <p className="plan-type-price">
-          {planPrice}
-        </p>
+        <section className="price-container">
+          <p className="real-sign">
+            R$
+          </p>
+          <p className="plan-type-price">
+            {planPrice}
+          </p>
+        </section>
         <article className="plan-type-description">
           {planDescription}
         </article>
