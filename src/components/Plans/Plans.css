@@ -1,0 +1,23 @@
+.plans-container {
+  align-items: center;
+  background: #f87d50; /* temp */
+  display: flex;
+  flex-flow: column nowrap;
+  height: 663px;
+  justify-content: space-between;
+  margin: 0 auto 72px;
+  width: 958px;
+}
+
+.plan-main-title {
+  color: white;
+  font-size: 35px;
+}
+
+.plan-types-wrapper {
+  background-color: white; /* temp */
+  border: 1px solid white; /* temp */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

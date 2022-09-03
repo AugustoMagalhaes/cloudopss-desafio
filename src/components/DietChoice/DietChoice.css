@@ -1,0 +1,40 @@
+.dietchoice-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 672px;
+  margin: 0 auto 20px;
+  position: relative;
+  width: 958px;
+}
+
+.dietchoice-border {
+  border-radius: 50px 50px 0 0;
+  border-top: 103px solid #f87d50;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.dietchoice-title-container {
+  height: 62px;
+  margin: 4px 0 0;
+  margin-left: 63px;
+  width: 213px;
+}
+
+.dietchoice-title {
+  font-size: 25px;
+}
+
+.dietchoice-input-container {
+  border: 1px solid orange; /* temp */
+  height: 605px;
+  margin-left: 211px;
+  margin-right: 38px;
+  width: 434px;
+  z-index: 1;
+}

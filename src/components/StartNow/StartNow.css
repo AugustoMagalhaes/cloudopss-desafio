@@ -1,0 +1,31 @@
+.startnow-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  flex-flow: column nowrap;
+  height: 244px;
+  margin: 0 auto 91px;
+  position: relative;
+  width: 958px;
+}
+
+.startnow-title {
+  font-size: 35px;
+  margin-bottom: 21px;
+  margin-top: 62px;
+}
+
+.startnow-btn {
+  background-color: #f87d50;
+  border: 1px solid #f87d50;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  height: 50px;
+  margin-bottom: 62px;
+  width: 313px;
+}

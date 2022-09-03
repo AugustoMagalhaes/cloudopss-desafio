@@ -1,0 +1,85 @@
+.plan-type-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  flex-flow: column nowrap;
+  height: 574px;
+  width: 297px;
+}
+
+.plan-type-title {
+  align-content: baseline;
+  align-items: center;
+  background: #f87d50;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-flow: column nowrap;
+  flex-shrink: 0;
+  height: 152px;
+
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.plan-title {
+  color: white;
+  font-size: 30px;
+  height: 37px;
+  margin-top: 62px;
+}
+
+.sub {
+  color: white;
+  font-size: 22px;
+}
+
+.plan-type-btn {
+  background-color: #f87d50;
+  border: 1px solid #f87d50;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  width: 157px;
+}
+
+.main-content-plan {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  justify-content: space-between;
+  padding: 40px 32px;
+  width: 100%;
+}
+
+.price-container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 110px;
+  justify-content: center;
+  position: relative;
+  width: 177px;
+}
+
+.real-sign {
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  top: -10px;
+}
+
+.plan-type-price {
+  font-size: 70px;
+  height: 86px;
+}
+
+.plan-type-description {
+  font-family: Arial, sans-serif; /* Não achei gilroy com weight 300 */
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
