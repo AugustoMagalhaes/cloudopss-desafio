@@ -16,7 +16,7 @@ function MainGoal() {
         <p className="arrow-down" />
         <select name="goal" id="goal" size="4" className="select-goal">
           <option value="weightloss" className="goal-option">Emagrecer</option>
-          <option value="keep" className="goal-option">Manter Peso</option>
+          <option value="keep" className="goal-option" selected>Manter Peso</option>
           <option value="health" className="goal-option">Ganhar saúde</option>
           <option value="muscular" className="goal-option">Ganhar Massa Muscular</option>
         </select>

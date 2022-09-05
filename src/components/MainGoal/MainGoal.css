@@ -51,6 +51,7 @@
 .goal-option:checked {
   background: none;
   color: #969696;
+  font-family: Gilroy, sans-serif;
   font-weight: 900;
 }
 
