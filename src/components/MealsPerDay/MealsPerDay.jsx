@@ -9,7 +9,12 @@ function MealsPerDay() {
         <h3 className="mealsperday-title">você faz ao dia?</h3>
       </section>
       <section className="mealsperday-input-container">
-        Input
+        <p className="arrow-right" />
+        <select name="meal-count" id="meal-count" defaultValue="3" className="meal-count">
+          <option value="1" className="meal-option">01 Refeição</option>
+          <option value="2" className="meal-option">02 Refeições</option>
+          <option value="3" className="meal-option">03 Refeições</option>
+        </select>
       </section>
     </section>
   );
