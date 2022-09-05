@@ -20,8 +20,38 @@
 }
 
 .mealsperday-input-container {
-  border: 1px solid orange; /* temp */
   height: 42px;
   margin-left: 210px;
+  position: relative;
   width: 284px;
+}
+
+.meal-count {
+  appearance: none;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  color: #353535;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  height: 100%;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.meal-option {
+  font-size: 16px;
+}
+
+.arrow-right {
+  border: solid #f87d50;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  position: absolute;
+  right: 21px;
+  top: 17px;
+  transform: rotate(-45deg);
 }
