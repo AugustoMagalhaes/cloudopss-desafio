@@ -31,8 +31,11 @@
 }
 
 .dietchoice-input-container {
-  border: 1px solid orange; /* temp */
+  align-items: space-between;
+  display: flex;
+  flex-flow: row wrap;
   height: 605px;
+  justify-content: space-between;
   margin-left: 211px;
   margin-right: 38px;
   width: 434px;

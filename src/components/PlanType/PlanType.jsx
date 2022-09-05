@@ -8,7 +8,7 @@ function PlanType({ title, planPrice, planDescription }) {
     <section className="plan-type-container">
       <section className="plan-type-title">
         {title?.map((item, index) => (
-          <h3 className={index > 0 ? 'sub' : 'plan-title'}>
+          <h3 className={index > 0 ? 'sub' : 'plan-title'} key={item}>
             {item}
           </h3>
         ))}

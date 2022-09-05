@@ -1,0 +1,42 @@
+.diet-type-container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 187px;
+  justify-content: space-between;
+  width: 135px;
+}
+
+.img-container {
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 135px;
+  justify-content: center;
+  width: 135px;
+}
+
+.diet-img {
+  height: 80%;
+  width: 80%;
+}
+
+.radio-container {
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  height: 42px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.diet-label {
+  color: #353535;
+  font-size: 16px;
+  line-height: 20px;
+
+  /*   margin-left: 5px; */
+}
