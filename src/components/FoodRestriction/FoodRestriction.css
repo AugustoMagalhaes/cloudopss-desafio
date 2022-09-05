@@ -12,8 +12,6 @@
 .foodrestriction-title-container {
   height: 62px;
   margin-left: 63px;
-
-  /* width: 215px; */
 }
 
 .foodrestriction-title {
@@ -21,9 +19,71 @@
 }
 
 .foodrestriction-input-container {
-  border: 1px solid orange; /* temp */
   height: 328px;
   margin-left: 187px;
   margin-right: 39px;
   width: 432px;
+}
+
+.foodrestriction-radio {
+  display: flex;
+  flex-flow: row wrap;
+  height: 204px;
+  justify-content: space-between;
+}
+
+.restriction-radio {
+  display: flex;
+}
+
+.radio-container {
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  display: flex;
+  flex-flow: row wrap;
+  height: 42px;
+  justify-content: space-evenly;
+  width: 134px;
+}
+
+.custom-restriction-container {
+  height: 86px;
+  margin-top: 35px;
+  position: relative;
+  width: 100%;
+}
+
+.custom-restriction {
+  background: white;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 42px;
+  margin-top: 24px;
+  padding-left: 27px;
+  width: 100%;
+}
+
+.custom-restriction::placeholder {
+  color: #969696;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.custom-restriction-btn {
+  background: #f87d50;
+  border: 1px solid #f87d50;
+  border-radius: 50px;
+  bottom: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: 800;
+  height: 42px;
+  position: absolute;
+  right: 0;
+  width: 102px;
 }
