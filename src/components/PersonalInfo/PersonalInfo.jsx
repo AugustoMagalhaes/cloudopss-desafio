@@ -47,7 +47,7 @@ function PersonalInfo() {
               type="text"
               name="birth-date"
               id="birth-date"
-              className="input-text"
+              className="input-text date-text"
               placeholder="00/00/0000"
             />
           </label>

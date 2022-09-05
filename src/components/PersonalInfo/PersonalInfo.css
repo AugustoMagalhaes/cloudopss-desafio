@@ -42,14 +42,19 @@
   border-radius: 30px;
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
   height: 42px;
+  margin: 0 10px 0 5px;
   padding-left: 34px;
-  width: 100%;
+  width: 167px;
 }
 
 .input-row .input-text::placeholder {
   color: #969696;
   font-size: 16px;
   font-weight: 800;
+}
+
+.input-row .date-text {
+  width: 346px;
 }
 
 .body-fat {
