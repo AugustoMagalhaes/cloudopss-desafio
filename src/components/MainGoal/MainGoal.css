@@ -21,9 +21,47 @@
 }
 
 .maingoal-input-container {
-  border: 1px solid orange; /* temp */
   height: 116px;
   margin-bottom: 5px;
   margin-left: 205px;
+  position: relative;
   width: 346px;
+}
+
+.select-goal {
+  background: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  height: 100%;
+  padding: 10px 134px 10px 34px;
+  width: 100%;
+}
+
+.goal-option {
+  background: none;
+  color: #969696;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  width: 190px;
+}
+
+.goal-option:checked {
+  background: none;
+  color: #969696;
+  font-family: Gilroy, sans-serif;
+  font-weight: 900;
+}
+
+.arrow-down {
+  border: solid #f87d50;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  position: absolute;
+  right: 27px;
+  top: 24px;
+  transform: rotate(45deg);
 }
